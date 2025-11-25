@@ -7,6 +7,11 @@
         "track order",
         "delivery status"
     ],
+    "provide_order_id": [
+        "ord",
+        "order id",
+        "order number"
+    ],
     "return_policy": [
         "return my order",
         "how to return",

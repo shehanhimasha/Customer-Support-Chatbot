@@ -1,12 +1,12 @@
-[
-  {
+{
+  "P1001": {
     "name": "Wireless Mouse",
     "category": "Electronics",
     "price": 3500
   },
-  {
+  "P1002": {
     "name": "Laptop Stand",
     "category": "Accessories",
     "price": 2800
   }
-]
+}

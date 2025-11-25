@@ -39,6 +39,13 @@ class ResponseGenerator:
             "Oops! I didn't understand that. Try asking about orders, returns, or products."
         ]
 
+        # Greeting templates
+        self.greeting_responses = [
+            "Hello! How can I help you today?",
+            "Hi there! What can I do for you?",
+            "Hey! Need help with an order, return, or product?"
+        ]
+
     def generate(self, rule_output, intent=None):
         """
         Generates a friendly chatbot response.
@@ -51,11 +58,15 @@ class ResponseGenerator:
             str: Final user-friendly chatbot response
         """
 
+        # Handle simple greetings
+        if intent == "greet":
+            return random.choice(self.greeting_responses)
+
         # Handle unknown intent
         if intent == "unknown" or not rule_output:
             return random.choice(self.unknown_responses)
 
-        # Add conversational phrase for certain intents
+        # Add conversational phrase for structured intents
         if intent == "track_order":
             return f"✅ Here's the update for your order:\n{rule_output}"
 
@@ -65,5 +76,5 @@ class ResponseGenerator:
         if intent == "product_recommendation":
             return f"💡 Recommended products:\n{rule_output}"
 
-        # Default fallback
+        # Default fallback for any custom intents
         return rule_output

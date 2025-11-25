@@ -1,10 +1,4 @@
-[
-  {
-    "question": "What is your return policy?",
-    "answer": "You can return any item within 30 days of delivery."
-  },
-  {
-    "question": "Do you offer express shipping?",
-    "answer": "Yes, express shipping is available for selected items."
-  }
-]
+{
+  "return_policy": "You can return any item within 30 days of delivery.",
+  "express_shipping": "Yes, express shipping is available for selected items."
+}

@@ -1,14 +1,14 @@
-[
-  {
-    "order_id": "ORD1234",
+{
+  "ORD1234": {
     "status": "Shipped",
     "delivery_date": "2025-12-03",
-    "items": ["Wireless Mouse", "USB Cable"]
+    "items": ["Wireless Mouse", "USB Cable"],
+    "return_days": 30
   },
-  {
-    "order_id": "ORD5678",
+  "ORD5678": {
     "status": "Processing",
     "delivery_date": "2025-12-05",
-    "items": ["Laptop Stand"]
+    "items": ["Laptop Stand"],
+    "return_days": 14
   }
-]
+}
