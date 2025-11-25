@@ -1,0 +1,44 @@
+{
+    "track_order": [
+        "track my order",
+        "where is my order",
+        "order status",
+        "check order",
+        "track order",
+        "delivery status"
+    ],
+    "return_policy": [
+        "return my order",
+        "how to return",
+        "refund policy",
+        "send back",
+        "return request",
+        "exchange item"
+    ],
+    "product_recommendation": [
+        "recommend me a product",
+        "suggest a product",
+        "best product",
+        "product recommendation",
+        "show me laptops",
+        "suggest phones"
+    ],
+    "greeting": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+    ],
+    "thanks": [
+        "thank you",
+        "thanks",
+        "thank you so much",
+        "thanks a lot"
+    ],
+    "unknown": [
+        "random",
+        "something else",
+        "not sure"
+    ]
+}
